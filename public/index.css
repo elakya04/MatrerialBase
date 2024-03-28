@@ -1,29 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
 }
 
-header {
+nav {
     background-color: grey;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 50px;
+    border-radius: 50%;
 }
 
 main {
-    padding: 20px;
+    padding: 20px 50px;
     background-color: #301934;
     min-height: 80vh;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    bottom: 0;
-    width: 100%;
+main > ul > li{
+    border-radius: 10px;
+    padding-left: 20px;
 }
 
 ul {
@@ -31,21 +33,8 @@ ul {
     padding: 0;
 }
 
-li {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #333;
-    text-decoration: none;
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-}
-
-a:hover {
-    background-color: #e2e2e2;
+h4{
+    margin-bottom: 5px;
 }
 
 #courseList {
@@ -55,6 +44,7 @@ a:hover {
 #courseList>li {
     margin: 10px;
     padding: 10px;
+    padding-left: 25px;
     background-color: #c3b1e1;
 }
 
@@ -71,4 +61,13 @@ a:hover {
     margin: 5px;
     border: none;
     display: block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
 }

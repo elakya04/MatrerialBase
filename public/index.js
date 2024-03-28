@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var branches;
-    fetch('/database.json')
+    fetch('./database.json')
         .then(res => res.json())
         .then(branches => {
 
@@ -23,12 +23,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     course.materials.forEach(material => {
                         const materialItem = document.createElement("button");
-                        materialItem.textContent = material;
+                        materialItem.textContent = material.name;
+                        materialItem.addEventListener("click", () => {
+                            window.location.href = material.link
+                        })
                         materialsList.appendChild(materialItem);
                     });
 
                     courseItem.appendChild(courseHeading);
                     courseItem.appendChild(materialsList);
+                    branchCoursesList.appendChild(document.createElement('hr'));
                     branchCoursesList.appendChild(courseItem);
                 });
 

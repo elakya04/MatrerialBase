@@ -5,12 +5,36 @@
     {
         "subj": "MAT305",
         "name": "Engineering mathematics 3",
-        "materials": ["Lecture Notes", "Assignments", "Practice Problems"]
+        "materials": [
+        {
+            "name": "Lecture Notes",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Assignments",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Practice Problems",
+            "link": "https://www.google.com"
+        }]
     },
     {
         "subj": "CSE102R01",
         "name": "Operating systems",
-        "materials": ["Lecture Slides", "Homework", "Exams"]
+        "materials": [
+        {
+            "name": "Lecture Slides",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Homework",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Exams",
+            "link": "https://www.google.com"
+        }]
     }]
 },
 {
@@ -19,12 +43,28 @@
     {
         "subj": "MAT101",
         "name": "Engineering mathematics 1",
-        "materials": ["Lecture Slides", "Lab Reports"]
+        "materials": [
+        {
+            "name": "Lecture Slides",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Lab Reports",
+            "link": "https://www.google.com"
+        }]
     },
     {
         "subj": "PHY103",
         "name": "Physics inside an atom",
-        "materials": ["Assignments", "Practice Problems"]
+        "materials": [
+        {
+            "name": "Assignments",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Practice Problems",
+            "link": "https://www.google.com"
+        }]
     }]
 },
 {
@@ -33,11 +73,27 @@
     {
         "subj": "CSE103",
         "name": "Computer architecture",
-        "materials": ["Programming Assignments", "Project Guidelines"]
+        "materials": [
+        {
+            "name": "Programming Assignments",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Project Guidelines",
+            "link": "https://www.google.com"
+        }]
     },
     {
         "subj": "DAA103",
         "name": "Design and analysis of algorithms",
-        "materials": ["Lecture Notes", "Coding Challenges"]
+        "materials": [
+        {
+            "name": "Lecture Notes",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Coding Challenges",
+            "link": "https://www.google.com"
+        }]
     }]
 }]
