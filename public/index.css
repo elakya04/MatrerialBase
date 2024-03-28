@@ -13,6 +13,8 @@ header {
 
 main {
     padding: 20px;
+    background-color: #301934;
+    min-height: 80vh;
 }
 
 footer {
@@ -46,38 +48,27 @@ a:hover {
     background-color: #e2e2e2;
 }
 
-
-#courseList ul{
-    margin-left: 40px;
-}
-
-main{
-    background-color: #301934;
-    min-height: 100vh;
-}
-
-h2{
-    color: white;
-    font-size: 35px;
-    text-align: center;
-}
-
-#courseList{
+#courseList {
     display: flex;
 }
 
-#courseList > li{
-    margin: 30px;
+#courseList>li {
+    margin: 10px;
     padding: 10px;
     background-color: #c3b1e1;
-
 }
 
-
-#search{
+#search {
     color: white;
 }
 
-#search input{
+#search input {
     padding: 5px;
+}
+
+#courseList button {
+    height: 30px;
+    margin: 5px;
+    border: none;
+    display: block;
 }

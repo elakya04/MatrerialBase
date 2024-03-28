@@ -1,0 +1,43 @@
+[
+{
+    "branch": "Mathematics",
+    "courses": [
+    {
+        "subj": "MAT305",
+        "name": "Engineering mathematics 3",
+        "materials": ["Lecture Notes", "Assignments", "Practice Problems"]
+    },
+    {
+        "subj": "CSE102R01",
+        "name": "Operating systems",
+        "materials": ["Lecture Slides", "Homework", "Exams"]
+    }]
+},
+{
+    "branch": "Physics",
+    "courses": [
+    {
+        "subj": "MAT101",
+        "name": "Engineering mathematics 1",
+        "materials": ["Lecture Slides", "Lab Reports"]
+    },
+    {
+        "subj": "PHY103",
+        "name": "Physics inside an atom",
+        "materials": ["Assignments", "Practice Problems"]
+    }]
+},
+{
+    "branch": "Computer Science",
+    "courses": [
+    {
+        "subj": "CSE103",
+        "name": "Computer architecture",
+        "materials": ["Programming Assignments", "Project Guidelines"]
+    },
+    {
+        "subj": "DAA103",
+        "name": "Design and analysis of algorithms",
+        "materials": ["Lecture Notes", "Coding Challenges"]
+    }]
+}]
