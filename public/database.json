@@ -1,99 +1,101 @@
-[
 {
-    "branch": "Mathematics",
-    "courses": [
+    "all": [
     {
-        "subj": "MAT305",
-        "name": "Engineering mathematics 3",
-        "materials": [
+        "branch": "Mathematics",
+        "courses": [
         {
-            "name": "Lecture Notes",
-            "link": "https://www.google.com"
+            "subj": "MAT305",
+            "name": "Engineering mathematics 3",
+            "materials": [
+            {
+                "name": "Lecture Notes ",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Assignments",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Practice Problems",
+                "link": "https://www.google.com"
+            }]
         },
         {
-            "name": "Assignments",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Practice Problems",
-            "link": "https://www.google.com"
+            "subj": "CSE102R01",
+            "name": "Operating systems",
+            "materials": [
+            {
+                "name": "Lecture Slides",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Homework",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Exams",
+                "link": "https://www.google.com"
+            }]
         }]
     },
     {
-        "subj": "CSE102R01",
-        "name": "Operating systems",
-        "materials": [
+        "branch": "Physics",
+        "courses": [
         {
-            "name": "Lecture Slides",
-            "link": "https://www.google.com"
+            "subj": "MAT101",
+            "name": "Engineering mathematics 1",
+            "materials": [
+            {
+                "name": "Lecture Slides",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Lab Reports",
+                "link": "https://www.google.com"
+            }]
         },
         {
-            "name": "Homework",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Exams",
-            "link": "https://www.google.com"
-        }]
-    }]
-},
-{
-    "branch": "Physics",
-    "courses": [
-    {
-        "subj": "MAT101",
-        "name": "Engineering mathematics 1",
-        "materials": [
-        {
-            "name": "Lecture Slides",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Lab Reports",
-            "link": "https://www.google.com"
+            "subj": "PHY103",
+            "name": "Physics inside an atom",
+            "materials": [
+            {
+                "name": "Assignments",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Practice Problems",
+                "link": "https://www.google.com"
+            }]
         }]
     },
     {
-        "subj": "PHY103",
-        "name": "Physics inside an atom",
-        "materials": [
+        "branch": "Computer Science",
+        "courses": [
         {
-            "name": "Assignments",
-            "link": "https://www.google.com"
+            "subj": "CSE103",
+            "name": "Computer architecture",
+            "materials": [
+            {
+                "name": "Programming Assignments",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Project Guidelines",
+                "link": "https://www.google.com"
+            }]
         },
         {
-            "name": "Practice Problems",
-            "link": "https://www.google.com"
+            "subj": "DAA103",
+            "name": "Design and analysis of algorithms",
+            "materials": [
+            {
+                "name": "Lecture Notes",
+                "link": "https://www.google.com"
+            },
+            {
+                "name": "Coding Challenges",
+                "link": "https://www.google.com"
+            }]
         }]
     }]
-},
-{
-    "branch": "Computer Science",
-    "courses": [
-    {
-        "subj": "CSE103",
-        "name": "Computer architecture",
-        "materials": [
-        {
-            "name": "Programming Assignments",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Project Guidelines",
-            "link": "https://www.google.com"
-        }]
-    },
-    {
-        "subj": "DAA103",
-        "name": "Design and analysis of algorithms",
-        "materials": [
-        {
-            "name": "Lecture Notes",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Coding Challenges",
-            "link": "https://www.google.com"
-        }]
-    }]
-}]
+}

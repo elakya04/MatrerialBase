@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('./database.json')
         .then(res => res.json())
         .then(branches => {
+            branches = branches.all
 
             const courseList = document.querySelector("#courseList");
 
