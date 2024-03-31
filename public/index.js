@@ -1,59 +1,67 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var branches;
-    fetch('./database.json')
-        .then(res => res.json())
-        .then(branches => {
-            branches = branches.all
+function createCourseCard(course) {
+    const card = document.createElement("div");
+    card.classList.add("course-card");
 
-            const courseList = document.querySelector("#courseList");
+    const heading = document.createElement("h3");
+    heading.textContent = course.code;
+    card.appendChild(heading);
 
-            branches.forEach(branch => {
-                const branchItem = document.createElement("li");
-                const branchHeading = document.createElement("h3");
-                const branchCoursesList = document.createElement("ul");
+    const listElements = document.createElement("div");
+    listElements.classList.add("material-list");
 
-                branchHeading.textContent = branch.branch;
-                branchItem.appendChild(branchHeading);
+    course.materials.forEach(material => {
+        const container = document.createElement("div");
+        container.classList.add("material-container");
 
-                branch.courses.forEach(course => {
-                    const courseItem = document.createElement("li");
-                    const courseHeading = document.createElement("h4");
-                    const materialsList = document.createElement("ul");
+        const name = document.createElement("div");
+        name.textContent = material.title;
+        container.appendChild(name);
 
-                    courseHeading.textContent = course.name;
+        const author = document.createElement("div");
+        author.textContent = material.author;
+        container.appendChild(author);
 
-                    course.materials.forEach(material => {
-                        const materialItem = document.createElement("button");
-                        materialItem.textContent = material.name;
-                        materialItem.addEventListener("click", () => {
-                            window.location.href = material.link
-                        })
-                        materialsList.appendChild(materialItem);
-                    });
+        container.addEventListener("click", () => {
+            window.location.href = material.link;
+        });
+        container.style.margin = "10px"
 
-                    courseItem.appendChild(courseHeading);
-                    courseItem.appendChild(materialsList);
-                    branchCoursesList.appendChild(document.createElement('hr'));
-                    branchCoursesList.appendChild(courseItem);
-                });
+        listElements.appendChild(container);
+    });
 
-                branchItem.appendChild(branchCoursesList);
-                courseList.appendChild(branchItem);
+    card.appendChild(listElements);
+    return card;
+}
+
+document.querySelector("#search input").addEventListener("input", () => {
+    const input = document.querySelector("#search input").value.toLowerCase();
+    const cards = document.querySelectorAll(".course-card");
+    document.querySelectorAll('div').forEach(div => div.style.display = 'block');
+
+    cards.forEach(card => {
+        if (!card.querySelector("h3").innerHTML.toLowerCase().includes(input)) {
+            card.style.display = "none";
+
+            card.querySelectorAll(".material-container").forEach(container => {
+                let containerText = container.textContent.toLowerCase();
+                if (containerText.includes(input)) {
+                    card.style.display = "block";
+                    container.style.display = "block";
+                } else {
+                    container.style.display = "none";
+                }
             });
-        });
-
-    const searchInput = document.getElementById('search');
-    searchInput.addEventListener('input', function(event) {
-        const searchText = event.target.value.toLowerCase();
-        const allListItems = document.querySelectorAll("#courseList li");
-
-        allListItems.forEach(item => {
-            const itemText = item.textContent.toLowerCase();
-            if (itemText.includes(searchText)) {
-                item.style.display = "block";
-            } else {
-                item.style.display = "none";
-            }
-        });
+        }
     });
 });
+
+fetch('./database.json')
+    .then(res => res.json())
+    .then(db => {
+        var cards = document.querySelector(".cards")
+        db.Courses.forEach(course => {
+            let card = createCourseCard(course)
+            cards.appendChild(card)
+        })
+
+    })
