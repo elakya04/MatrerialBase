@@ -38,6 +38,7 @@ document.querySelector("#search input").addEventListener("input", () => {
     const cards = document.querySelectorAll(".course-card");
     document.querySelectorAll('.cards div').forEach(div => div.style.display = 'block');
 
+    let count = 0
     cards.forEach(card => {
         if (!card.querySelector("h3").innerHTML.toLowerCase().includes(input)) {
             card.style.display = "none";
@@ -46,6 +47,7 @@ document.querySelector("#search input").addEventListener("input", () => {
                 let containerText = container.textContent.toLowerCase();
                 if (containerText.includes(input)) {
                     card.style.display = "block";
+                    count++
                     container.style.display = "block";
                 } else {
                     container.style.display = "none";
@@ -53,7 +55,11 @@ document.querySelector("#search input").addEventListener("input", () => {
             });
         }
     });
+
+    document.querySelector(".notFound").style.display = (count == 0) ? "block" : "none"
 });
+
+document.querySelector(".notFound").style.display = "none"
 
 fetch('./database.json')
     .then(res => res.json())
