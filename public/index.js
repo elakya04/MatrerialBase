@@ -3,7 +3,7 @@ function createCourseCard(course) {
     card.classList.add("course-card");
 
     const heading = document.createElement("h3");
-    heading.textContent = course.code;
+    heading.textContent = course.code + ' - ' + course.name;
     card.appendChild(heading);
 
     const listElements = document.createElement("div");
@@ -36,7 +36,7 @@ function createCourseCard(course) {
 document.querySelector("#search input").addEventListener("input", () => {
     const input = document.querySelector("#search input").value.toLowerCase();
     const cards = document.querySelectorAll(".course-card");
-    document.querySelectorAll('div').forEach(div => div.style.display = 'block');
+    document.querySelectorAll('.cards div').forEach(div => div.style.display = 'block');
 
     cards.forEach(card => {
         if (!card.querySelector("h3").innerHTML.toLowerCase().includes(input)) {

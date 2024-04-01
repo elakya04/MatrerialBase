@@ -1,101 +1,293 @@
 {
-    "all": [
+    "Courses": [
     {
-        "branch": "Mathematics",
-        "courses": [
+        "code": "CSE105",
+        "name": "Computer organisation",
+        "materials": [
         {
-            "subj": "MAT305",
-            "name": "Engineering mathematics 3",
-            "materials": [
-            {
-                "name": "Lecture Notes ",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Assignments",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Practice Problems",
-                "link": "https://www.google.com"
-            }]
+            "title": "Unit-1 ppt",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1i6GqKca6DLzDfj5NZkj8hObkxUTTEt3h"
         },
         {
-            "subj": "CSE102R01",
-            "name": "Operating systems",
-            "materials": [
-            {
-                "name": "Lecture Slides",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Homework",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Exams",
-                "link": "https://www.google.com"
-            }]
+            "title": "Unit-2 ppt",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1DMY2LimoQXfuUS6MhN5bahMOvJXZblaN"
+        },
+        {
+            "title": "Unit-3 ppt",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1DwOuHJbZwIS28PRk-O9UIC7dp7dP-z3Z"
+        },
+        {
+            "title": "Unit-4 ppt",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1XN3rPi7UdMhJNZHH5qAMdyjxWo8nnNO_"
+        },
+        {
+            "title": "Unit-1 Videos",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1I37d6qnSaTFCjS79z69Xnc2Zwg9xoHMu"
+        },
+        {
+            "title": "Unit-2 Videos",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1zrl_GX9mfazhbrfzrVnBVAkepIYpC2wg"
+        },
+        {
+            "title": "Unit-3 Videos",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1T4vBn5wlIDfnIhQ6EiACnkmv9WvtaarO"
+        },
+        {
+            "title": "Unit-4 Videos",
+            "author": "Shankar Sriram",
+            "link": "https://drive.google.com/drive/folders/1xghZP0BFdPxUNma9Fu73rlTmB0o_xjlM"
         }]
     },
     {
-        "branch": "Physics",
-        "courses": [
+        "code": "CSE103",
+        "name": "Data structures",
+        "materials": [
         {
-            "subj": "MAT101",
-            "name": "Engineering mathematics 1",
-            "materials": [
-            {
-                "name": "Lecture Slides",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Lab Reports",
-                "link": "https://www.google.com"
-            }]
+            "title": "Unit-1 ppt",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1FMvZIWxeOyb4SoqazXWnqX1VEgUWcTFB"
         },
         {
-            "subj": "PHY103",
-            "name": "Physics inside an atom",
-            "materials": [
-            {
-                "name": "Assignments",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Practice Problems",
-                "link": "https://www.google.com"
-            }]
+            "title": "Unit-2 ppt",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1IF3xgZ-h0Vb9GWW9G_mIkpeT6j7RmxmG"
+        },
+        {
+            "title": "Unit-3 ppt",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1yqYzSlOQEIIr04QDk99SfXEZ69d8Jy-q"
+        },
+        {
+            "title": "Unit-4 ppt",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1WFh3QTfOdqdKG532bMP0PQq9citYx6He"
+        },
+        {
+            "title": "Videos unit-1",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1SsmyDQAJe4gVqxDHzyWeK2e6LHfYZXbV"
+        },
+        {
+            "title": "Videos unit-2",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1cB5rMXHjTKDKX01hPoQF-qmLaRiHtN1o"
+        },
+        {
+            "title": "Videos unit-3",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1Z7K_qWLoCOJQUbgA2buGFXK_OLu8pNeM"
+        },
+        {
+            "title": "Videos unit-4",
+            "author": "Karthikeyan M P",
+            "link": "https://drive.google.com/drive/folders/1Nxb32hMztpl42TFsgS7ZBP2lvZ0CfjVO"
         }]
     },
     {
-        "branch": "Computer Science",
-        "courses": [
+        "code": "ECE101",
+        "name": "Digital system design",
+        "materials": [
         {
-            "subj": "CSE103",
-            "name": "Computer architecture",
-            "materials": [
-            {
-                "name": "Programming Assignments",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Project Guidelines",
-                "link": "https://www.google.com"
-            }]
+            "title": "Unit-1 ppt",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/1zcqC81GWJ4fNFOzLeo_XVED_G5slvAPE"
         },
         {
-            "subj": "DAA103",
-            "name": "Design and analysis of algorithms",
-            "materials": [
-            {
-                "name": "Lecture Notes",
-                "link": "https://www.google.com"
-            },
-            {
-                "name": "Coding Challenges",
-                "link": "https://www.google.com"
-            }]
+            "title": "Unit-2 ppt",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/1Y1RO53ce1M-x166NzRxNqo-HKCPYrYUu"
+        },
+        {
+            "title": "Unit-3 ppt",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/1VRSqmiyWH1EtIeSj_L9hMIGgKPm7YbVi"
+        },
+        {
+            "title": "Unit-4 ppt",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/1ZAkl4N9K_lV9muboi3prJp4PsFxb6YH2"
+        }]
+    },
+    {
+        "code": "MAT201R01",
+        "name": "Engineering mathematics III",
+        "materials": [
+        {
+            "title": "Unit-1 ppt",
+            "author": "Rajagopal",
+            "link": "https://drive.google.com/drive/folders/1ObQcHtWaQy48MlH-t_6JQUQcMlfVgpQc"
+        },
+        {
+            "title": "Unit-2 ppt",
+            "author": "Rajagopal",
+            "link": "https://drive.google.com/drive/folders/1yFE9yjWrb6LOFZVIIUJGkZopnqXLaP8v"
+        },
+        {
+            "title": "Unit-3 ppt",
+            "author": "Rajagopal",
+            "link": "https://drive.google.com/drive/folders/1u7IKKw1ZgeerE8n94QEr6D-XDlmowa7R"
+        },
+        {
+            "title": "Unit-4 ppt",
+            "author": "Rajagopal",
+            "link": "https://drive.google.com/drive/folders/1YdJlLMCtE567rG7QNApGG9Ck-1jK-O8l"
+        },
+        {
+            "title": "Videos unit-1",
+            "author": "Rajagopal",
+            "link": "https://drive.google.com/drive/folders/1iParM4bP7mRZdpa344Z4gB01TuhzDUHd"
+        }]
+    },
+    {
+        "code": "CSE208",
+        "name": "Java programming",
+        "materials": [
+        {
+            "title": "Unit-1 ppt",
+            "author": "Anushuadevi",
+            "link": "https://drive.google.com/drive/folders/1mkCBcsdtIiE-rQRAcN2rIMjDLT8ldjvk"
+        },
+        {
+            "title": "Unit-2 ppt",
+            "author": "Anushuadevi",
+            "link": "https://drive.google.com/drive/folders/1DWl-qkMkbMhJLJc_ZXKOoZhg44rrIF0v"
+        },
+        {
+            "title": "Unit-3 ppt",
+            "author": "Anushuadevi",
+            "link": "https://drive.google.com/drive/folders/1LOWLd1x9ATIau--PgUTKPED80YakOJ_c"
+        },
+        {
+            "title": "Unit-4 ppt",
+            "author": "Anushuadevi",
+            "link": "https://drive.google.com/drive/folders/1WNSoiN2aH2H0KD4iDpgax6JR02PWW1oG"
+        },
+        {
+            "title": "Unit-1 videos",
+            "author": "Anushuadevi",
+            "link": "https://drive.google.com/drive/folders/1HGb1q8UzcF84WXWI7eelskZ1rlIUQaUl"
+        },
+        {
+            "title": "Unit-2 videos",
+            "author": "Anushuadevi",
+            "link": "https://drive.google.com/drive/folders/1qTxMD1RmMuljX-8qt-pOD8DTyz6P4ozp"
+        }]
+    },
+    {
+        "code": "MEC201",
+        "name": "Metallurgy",
+        "materials": [
+        {
+            "title": "Slides",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1nRsMjqpN48z1zjGse1aVo0nMrikkulNS"
+        },
+        {
+            "title": "Reference books",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1FgYds6Hs8PLYxtBzAauteXichHL0dydh"
+        },
+        {
+            "title": "Steels",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1zCfUkHHM8Pwf1TcFMIQztqg4XCejyV3I"
+        }]
+    },
+    {
+        "code": "MEC203",
+        "name": "Fluid mechanics",
+        "materials": [
+        {
+            "title": "Reference books",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1oZqJrLkLlutu54wwhI_3MCcxA0i1PrW3"
+        },
+        {
+            "title": "Notess",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1ZRwJ0Jjlr_S5rZcpTtqdophJe_MECOmF"
+        }]
+    },
+    {
+        "code": "CIV220",
+        "name": "Strength of materials",
+        "materials": [
+        {
+            "title": "Notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1g_Ldmlznv2v6JC5V8Ytkbrku0PEvllUs"
+        }]
+    },
+    {
+        "code": "MEC205",
+        "name": "Thermo",
+        "materials": [
+        {
+            "title": "book",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/18JlenAEhl4csnURDKPLQ9Ktu-b9v9UF0"
+        }]
+    },
+    {
+        "code": "MEC329",
+        "name": "Applied Thermo",
+        "materials": [
+        {
+            "title": "notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1Bzh2DWVgJLvxWC3WTfVbGLpoKOTFn5Kg"
+        }]
+    },
+    {
+        "code": "EEE213",
+        "name": "Electrical machines & drives",
+        "materials": [
+        {
+            "title": "notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1nuRCoiOiDkfozCp9RObjPPdum0lbZ9i0"
+        }]
+    },
+    {
+        "code": "MEC204",
+        "name": "Kinematics of machinery",
+        "materials": [
+        {
+            "title": "unit-4",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1fgI3KOAqx_1Eqc_I4_t3HDbCcn0Gvqq3"
+        },
+        {
+            "title": "notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/11s8jD9GPCeXWybuswUWaFz25V_kl9Yx7"
+        }]
+    },
+    {
+        "code": "MEC207",
+        "name": "Manufacturing technilogy",
+        "materials": [
+        {
+            "title": "unit-2",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/14XUdE9Cc-SC9fUKJ_Inm5XOs1x6lmD91"
+        },
+        {
+            "title": "unit-3",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/18iGbgSN3wxEoaXaks6Hi-4SIJiYYjtPQ"
+        },
+        {
+            "title": "notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1vFPrSZfK_hVRzZxw5WAKu2_jVoOPLCvt"
         }]
     }]
 }
