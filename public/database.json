@@ -654,5 +654,145 @@
             "author": "Srikanth",
             "link": "https://drive.google.com/drive/folders/19DqTPzbLGxOmqnhfK1QJSpzEMB2ccLR3"
         }]
+    },
+    {
+        "code": "MAT307R01",
+        "name": "Statistical methods",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1n4eQl_LrRyT8VJWGBYrBkwAQTTtZFfXj"
+        }]
+    },
+    {
+        "code": "MEC208",
+        "name": "Dessign of machine elements",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/14L6CLYxXiXfqe0y6kPqrgVwjxkADdr8u"
+        }]
+    },
+    {
+        "code": "MEC217",
+        "name": "Manufacturing technology II",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1DevmtEDa-F8xGJIbBUZv5CzY_O3L73o2"
+        }]
+    },
+    {
+        "code": "MEC301",
+        "name": "Dynamics of machinery",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1ytTNQJnMW0Pz7x7KR-aLJM_QF-jMEVli"
+        }]
+    },
+    {
+        "code": "MEC329",
+        "name": "Heat transfer",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1KIsZVdclHPYueUqA45S5tpjctNJxBkwW"
+        }]
+    },
+    {
+        "code": "EEE202",
+        "name": "Power electronics",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1HWMF9Bspbfdm0pZCwDb6qLQa3MSWme0T"
+        }]
+    },
+    {
+        "code": "EEE204",
+        "name": "Transmission & distribution",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/113BCbWq2JXhooWdh3Mr2HBnaXPGS-VpL"
+        }]
+    },
+    {
+        "code": "EEE205",
+        "name": "Induction and synchronous machines",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1fpj0Z3V9h7vJSs46axft_DEkxWmw8j-3"
+        }]
+    },
+    {
+        "code": "MEC332",
+        "name": "Power plany engineering",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1NS1VGq_jixf9nmrczGwvBcGqpnhG8k3w"
+        }]
+    },
+    {
+        "code": "CSE204",
+        "name": "Computer networks",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1WvcFs-7moObNCmPhUGlSKEo0A6vT9aVf"
+        }]
+    },
+    {
+        "code": "",
+        "name": "Control engineering",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1NhJ6SYGZJb_ON3z_k2ZQ4RUobtAHvHZR"
+        }]
+    },
+    {
+        "code": "",
+        "name": "Digital communication",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1iovwUYT6VfuJBZ41W9WJqJEUDtT5Cp2S"
+        }]
+    },
+    {
+        "code": "",
+        "name": "Digital signal processing",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/19BfQai37X3XNg9JEstaN7DudjRJmyPUH"
+        }]
+    },
+    {
+        "code": "",
+        "name": "Engineering mathematics V",
+        "materials": [
+        {
+            "title": "All",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1sWZC85sJfR3O9d2Bod8ZKquZI9dTWXvx"
+        }]
     }]
 }
