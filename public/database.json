@@ -289,5 +289,370 @@
             "author": "",
             "link": "https://drive.google.com/drive/folders/1vFPrSZfK_hVRzZxw5WAKu2_jVoOPLCvt"
         }]
+    },
+    {
+        "code": "CIV101",
+        "name": "Basic civil engineering",
+        "materials": [
+        {
+            "title": "Ppts",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1D3uzZxzeqHgD7SEmMYYqtn6CTf5fBsPw"
+        }]
+    },
+    {
+        "code": "EEE101",
+        "name": "Basic electrical engineering",
+        "materials": [
+        {
+            "title": "unit-1",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/14uLOPE589EdbTsYM54ktOVxVSLnqy0L4"
+        },
+        {
+            "title": "unit-2",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1WlEir9wkhJ3P0mHc1q85haEpiR4O1CZl"
+        },
+        {
+            "title": "unit-3&4",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1vWErrom9znfJ6DY_xcElPoMnTbxIlciB"
+        }]
+    },
+    {
+        "code": "EIE101",
+        "name": "Basic electronics engineering",
+        "materials": [
+        {
+            "title": "PPts",
+            "author": "akm",
+            "link": "https://drive.google.com/drive/folders/1d5IMA7s4PAKgHCLO_e4wHT0ngWmiLkZi"
+        },
+        {
+            "title": "Class notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1twvpDNCRLPtLKcgbrKykpw2zJnXnpJ6-"
+        }]
+    },
+    {
+        "code": "MEC101",
+        "name": "Basic mechanical engineering",
+        "materials": [
+        {
+            "title": "PPts",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1yYfazOpr7BFOQxxNbqb18tSjyWLr7K4k"
+        },
+        {
+            "title": "Textbooks",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/16Ljmr9TDvpxLH2Dd0c9UNmniw5b_0XW9"
+        }]
+    },
+    {
+        "code": "BIO101",
+        "name": "Biology for engineers",
+        "materials": [
+        {
+            "title": "Unit-1",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1F3IfYVgfX8M8KC3mh9BsDab9y-xBS9P9"
+        },
+        {
+            "title": "Unit-2",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1RdmdQkrdkvSzBnckzpDHIoPdlMtiIuAL"
+        },
+        {
+            "title": "Unit-3",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1b8dLad2nB9PrlmW8GBfhbUcOpngJgUZU"
+        },
+        {
+            "title": "Unit-4",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1qQcbJIc1V7nxgSREwI6xl69byXJEOTw8"
+        }]
+    },
+    {
+        "code": "MAT101R01",
+        "name": "Engineering mathematics I",
+        "materials": [
+        {
+            "title": "Textbook and pdf",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1EcdYPJUjfRFxWZVw9ZCO7ouJkZNpn_G7"
+        }]
+    },
+    {
+        "code": "MAT102R01",
+        "name": "Engineering mathematics II",
+        "materials": [
+        {
+            "title": "Notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/10BoK3r6nRByMXx_g7zsTSmMbLF04s_JA"
+        },
+        {
+            "title": "Textbook",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1aFJAs2KCqdEp16ZQhFDpEIDZ0qmjKUz8"
+        },
+        {
+            "title": "Notes",
+            "author": "Vineesh kotni",
+            "link": "https://drive.google.com/drive/folders/1GU1ApLnsLe54wypcho3CHSKw1YemC8tU"
+        }]
+    },
+    {
+        "code": "CHY101",
+        "name": "Engineering chemistry",
+        "materials": [
+        {
+            "title": "Pdfs",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/10b0Skxnc-Gf9pwWM4c7JjJrMRlTG1xry"
+        },
+        {
+            "title": "Tcs revision materials",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/13zZpnQK-p1trqKERwGeT8rvWwc01QQN0"
+        }]
+    },
+    {
+        "code": "CIV102",
+        "name": "Engineering graphics",
+        "materials": [
+        {
+            "title": "Pdfs",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1Pgx6x3BjjDwh3jJqZ81ERPEpSuzv4vkh"
+        }]
+    },
+    {
+        "code": "CIV102",
+        "name": "Engineering mechanics",
+        "materials": [
+        {
+            "title": "Pdfs",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1HyLFVyzzG26mc0aKb9nzTAwDUAa28OZW"
+        }]
+    },
+    {
+        "code": "PHY101",
+        "name": "Engineering physics",
+        "materials": [
+        {
+            "title": "Unit-1",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1EJIg5J5zzV98JWM8yYWTXJpftxVLF214"
+        },
+        {
+            "title": "Unit-2",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1YcbKqaDhygjY9KviGZhgQMwCsDpsJ3h1"
+        },
+        {
+            "title": "Unit-3",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1_Dibq5ORe-hi_lO_heHahprI-o01iIum"
+        },
+        {
+            "title": "Unit-4",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/13I1SyCXC_G6Tsx-YtNh9I3uXKuXjYB2j"
+        },
+        {
+            "title": "Notes",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1tlROo6ZPgJbmuINNprATBM4bNlMAOoJ_"
+        }]
+    },
+    {
+        "code": "CSE102",
+        "name": "Object oriented programming",
+        "materials": [
+        {
+            "title": "pdfs",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1PTuowdaOggSgFEkreqzaA1YT7OyUEwH-"
+        },
+        {
+            "title": "Textbooks",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/17lIbXaFvS5QKPNzCpLgfeBZVfSZ4qdaM"
+        }]
+    },
+    {
+        "code": "CSE101",
+        "name": "programming and problem solving in C ",
+        "materials": [
+        {
+            "title": "pdfs",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1-lQ_ExUAVvosUAqcxWxF__TI4ahnQcEQ"
+        },
+        {
+            "title": "Lab",
+            "author": "",
+            "link": "https://drive.google.com/drive/folders/1mjg-l78ipqZyVQHcHg_iIDf-h43HDjX5"
+        }]
+    },
+    {
+        "code": "CIV220",
+        "name": "Mechanics of solids",
+        "materials": []
+    },
+    {
+        "code": "CSE205",
+        "name": "Computer architecture",
+        "materials": [
+        {
+            "title": "Unit-1 pdf",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/10xbd0Dtntl4EOGDl8Wf7qGEFjO53yK8C"
+        },
+        {
+            "title": "Unit-2 pdf",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/1j8ANAjO5JKnw94xuXlER2_zJow4IDVWb"
+        },
+        {
+            "title": "Unit-3 pdf",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/1UFV65vujV8izg9IcXH0t4wzKrK5-fN_z"
+        },
+        {
+            "title": "Unit-4 pdf",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/11T-EeLDuDE8J9ov8es0PEQZL1mRwb2mG"
+        },
+        {
+            "title": "Videos",
+            "author": "ezhilarasi",
+            "link": "https://drive.google.com/drive/folders/1HUjPRUSucGLf2xeRoeBYtz1Ih8VWEe0e"
+        }]
+    },
+    {
+        "code": "INT102",
+        "name": "Database management system",
+        "materials": [
+        {
+            "title": "Unit-1 pdf",
+            "author": "Manikandan G",
+            "link": "https://drive.google.com/drive/folders/1gz4EnI9bJrS-f1OJ29RA6k47L18VkWAI"
+        },
+        {
+            "title": "Unit-2 pdf",
+            "author": "Manikandan G",
+            "link": "https://drive.google.com/drive/folders/1yHbQE4aN-SvuDrCNm-_GAvQEanZ3YXT6"
+        },
+        {
+            "title": "Unit-3 pdf",
+            "author": "Manikandan G",
+            "link": "https://drive.google.com/drive/folders/1KYchzDVcBBa8GAJ2T8K6CMhwYJxlh6uz"
+        },
+        {
+            "title": "Unit-4 pdf",
+            "author": "Manikandan G",
+            "link": "https://drive.google.com/drive/folders/1RJiIMfRmxUBb7gF407PAvj8DiOIUPDU9"
+        },
+        {
+            "title": "Videos",
+            "author": "Manikandan G",
+            "link": "https://drive.google.com/drive/folders/1YcC6gTIKrzH1lc2M0VNMSR2CJV3y00PB"
+        }]
+    },
+    {
+        "code": "CSE305",
+        "name": "Design and analysis of algorithms",
+        "materials": [
+        {
+            "title": "Unit-1 pdf",
+            "author": "Priyadarshini",
+            "link": "https://drive.google.com/drive/folders/1QSOrvXQtzo3wTsnWcgNt7mzT-kdrHos4"
+        },
+        {
+            "title": "Unit-2 pdf",
+            "author": "Priyadarshini",
+            "link": "https://drive.google.com/drive/folders/1aYQxbtdgvXTyVE8ahC3tvY_qtzOd5oC5"
+        },
+        {
+            "title": "Unit-3 pdf",
+            "author": "Priyadarshini",
+            "link": "https://drive.google.com/drive/folders/1Hzr2XfY49j7kpiECT444KNQn1ic-xE_f"
+        },
+        {
+            "title": "Unit-4 pdf",
+            "author": "Priyadarshini",
+            "link": "https://drive.google.com/drive/folders/1eVV7uR9Y5Ofq8D2PIxPLUuClB6C1hZp9"
+        },
+        {
+            "title": "Videos",
+            "author": "Priyadarshini",
+            "link": "https://drive.google.com/drive/folders/1RcZoi6h8ES90WQia_Vj5Iwj0RZZBTdpc"
+        }]
+    },
+    {
+        "code": "MAT302",
+        "name": "Discrete structures",
+        "materials": [
+        {
+            "title": "Unit-1 pdf",
+            "author": "Balachandran",
+            "link": "https://drive.google.com/drive/folders/1ZJTUJYQBWSgowc05-4R3Mh7Fxr11m9SO"
+        },
+        {
+            "title": "Unit-2 pdf",
+            "author": "Balachandran",
+            "link": "https://drive.google.com/drive/folders/1nLU008Sf6lM0NdRXUyp68kdNCA5ywBC-"
+        },
+        {
+            "title": "Unit-3 pdf",
+            "author": "Balachandran",
+            "link": "https://drive.google.com/drive/folders/1vtVOfjNUJtFXHIVJzHFE8Czm5t-KPMrg"
+        },
+        {
+            "title": "Unit-4 pdf",
+            "author": "Balachandran",
+            "link": "https://drive.google.com/drive/folders/1nIfZWFOjbtMS4I3p-IxAcu9q_2DOd2FF"
+        },
+        {
+            "title": "Videos",
+            "author": "Balachandran",
+            "link": "https://drive.google.com/drive/folders/1hMlWXJ-Ha-tbk9CibuW6XtVgSbqQgk18"
+        }]
+    },
+    {
+        "code": "MAT304",
+        "name": "Maths for cyber security",
+        "materials": [
+        {
+            "title": "Unit-1 pdf",
+            "author": "Srikanth",
+            "link": "https://drive.google.com/drive/folders/1hJqMFILY99RLpydloj9_Cc0AfETFqU_9"
+        },
+        {
+            "title": "Unit-2 pdf",
+            "author": "Srikanth",
+            "link": "https://drive.google.com/drive/folders/1fBnzrgB-RDtJXKDH48yAcAYkS32NJQ4O"
+        },
+        {
+            "title": "Unit-3 pdf",
+            "author": "Srikanth",
+            "link": "https://drive.google.com/drive/folders/1qzXp0SENfzeimEr8qD_gR8xhn9VPAQVt"
+        },
+        {
+            "title": "Unit-4 pdf",
+            "author": "Srikanth",
+            "link": "https://drive.google.com/drive/folders/1F9I6QkSOok-SXVX5KaJ82gKiIFw6kVBQ"
+        },
+        {
+            "title": "Videos",
+            "author": "Srikanth",
+            "link": "https://drive.google.com/drive/folders/19DqTPzbLGxOmqnhfK1QJSpzEMB2ccLR3"
+        }]
     }]
 }
