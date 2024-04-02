@@ -22,7 +22,8 @@ function createCourseCard(course) {
         container.appendChild(author);
 
         container.addEventListener("click", () => {
-            window.location.href = material.link;
+            window.open(material.link, '_blank').focus();
+
         });
         container.style.margin = "10px"
 
@@ -47,16 +48,18 @@ document.querySelector("#search input").addEventListener("input", () => {
                 let containerText = container.textContent.toLowerCase();
                 if (containerText.includes(input)) {
                     card.style.display = "block";
-                    count++
                     container.style.display = "block";
+                    count++
                 } else {
                     container.style.display = "none";
                 }
             });
+        } else {
+            count++
         }
     });
 
-    document.querySelector(".notFound").style.display = (count == 0) ? "block" : "none"
+    document.querySelector(".notFound").style.display = (count == 0) ? "inline-block" : "none"
 });
 
 document.querySelector(".notFound").style.display = "none"
@@ -71,3 +74,7 @@ fetch('./database.json')
         })
 
     })
+
+document.querySelector("#clearButton").addEventListener("click", () => {
+    document.querySelector("#search input").value = ''
+})

@@ -186,6 +186,14 @@ nav div {
     align-items: center;
 }
 
-.imgContainer{
+.imgContainer {
     width: 250px;
+}
+
+nav div:hover {
+    cursor: pointer;
+}
+
+#clearButton {
+    content: "\00d7";
 }
