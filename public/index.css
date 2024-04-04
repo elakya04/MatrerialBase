@@ -190,10 +190,19 @@ nav div {
     width: 250px;
 }
 
+.imgContainer span {
+    line-height: 8px;
+    font-size: 90px;
+    position: relative;
+    transform: translateY(-16px);
+}
+
 nav div:hover {
     cursor: pointer;
 }
 
 #clearButton {
-    content: "\00d7";
+    height: 100%;
+    width: 70px;
+    border-radius: 10px;
 }

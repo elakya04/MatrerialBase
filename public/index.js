@@ -34,7 +34,7 @@ function createCourseCard(course) {
     return card;
 }
 
-document.querySelector("#search input").addEventListener("input", () => {
+function runSearch() {
     const input = document.querySelector("#search input").value.toLowerCase();
     const cards = document.querySelectorAll(".course-card");
     document.querySelectorAll('.cards div').forEach(div => div.style.display = 'block');
@@ -60,6 +60,10 @@ document.querySelector("#search input").addEventListener("input", () => {
     });
 
     document.querySelector(".notFound").style.display = (count == 0) ? "inline-block" : "none"
+}
+
+document.querySelector("#search input").addEventListener("input", () => {
+    runSearch()
 });
 
 document.querySelector(".notFound").style.display = "none"
@@ -77,4 +81,5 @@ fetch('./database.json')
 
 document.querySelector("#clearButton").addEventListener("click", () => {
     document.querySelector("#search input").value = ''
+    runSearch()
 })

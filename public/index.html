@@ -11,17 +11,21 @@
 
 <body>
     <nav>
-        <div onclick="window.location.href='/'" class="imgContainer"><img src="./logo.png"></img></div>
+        <div onclick="window.location.href='/'" class="imgContainer">
+            <span>&larr;</span>
+            <img src="./logo.png"></img>
+        </div>
         <div onclick="window.location.href='/'">Material Base</div>
         <a class="box-button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSe7fsS0f1sLosPBYeg-jLgRwKg8XmBsia1RX6vTMGufYro5cg/viewform?usp=pp_url', '_blank').focus();">Click here to submit materials!</a>
 
     </nav>
 
     <main>
+        <div id="searchContainer">Type course code/name in the search bar</div>
         <div id="searchContainer">
             <div id="search">Search subject:
                 <input></input>
-            <button id="clearButton">Clear</button>
+                <button id="clearButton">Clear</button>
             </div>
         </div>
 
